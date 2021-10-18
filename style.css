@@ -125,6 +125,20 @@ h2 {
     100% {transform: translateX(100px);}
 }
 
+/* Cubic bezier example - dinosaur */
+.dinosaur {
+    grid-area: 'dinosaur';
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier (0.32, 0, 0.67, 0) ;
+}
+
+@keyframes fly {
+    100% {transform: translateX(500%);}
+}
+
+
 
 
 
