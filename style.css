@@ -1,4 +1,32 @@
+/* Create responsive grid for large and small screens */
 
+/* large screens rules Media Query , (min-width: 700px)*/
+@media screen and (min-width: 700px) {
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "button1 button2 scaleOut"
+        "cloud dinosaur";
+    }
+}
+
+/* small screens rules Media Query, (max-width: 600px) */
+@media screen and (max-width: 600px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "button1"
+        "button 2"
+        "cloud"
+        "dinosaur";
+    }
+}
 
 
 
