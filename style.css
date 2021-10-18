@@ -85,6 +85,26 @@
      border-radius: 20px;
  }
 
+/* Style h2 and apply animation parameters */
+
+h2 {
+    grid-area: 'scaleOut';
+    font-family: sans-serif;
+    color: greenyellow;
+    text-shadow: 2px 2px 0px rgb(39, 131, 80);
+/* animation parameters */
+    animation-name: scaleOut;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+/* keyframe for h2 scaleouuut */
+@keyframes scaleOut {
+    0% {transform: scale(2.5);}
+    50% {transform: scale (1.1);}
+    100% {transform: scale(1);}
+}
 
 
 
