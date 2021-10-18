@@ -138,6 +138,43 @@ h2 {
     100% {transform: translateX(500%);}
 }
 
+/* Phrase type with blinking cursor - has some glitches,
+not sure why it didn't work */
+
+/* h4 {
+    animation: typing 8s steps(31),
+               blinking 0.5s steps(1) infinite;
+}
+    
+@keyframes typing {
+    0% {
+    width:0px;
+    }
+    100% {
+    width: 100%;
+    }
+}
+    
+@keyframes blinking {
+    0%, 100% {
+    border-color: transparent;
+    }
+    50% {
+    border-color: #CE2D4F;
+    }
+}
+    
+    
+h4 {
+    color: #433F55;
+    font-family: serif;
+    overflow: hidden; 
+    border-right: .15em solid #CE2D4F; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+} */
+
 
 
 
