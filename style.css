@@ -28,6 +28,34 @@
     }
 }
 
+/* Style buttons and apply grid-area name */
+
+.button {
+    grid-area: 'button1';
+    width: 120px;
+    height: 60px;
+    background: rgb(12, 110, 110);
+    color: paleturquoise;
+    letter-spacing: normal;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 1.2em;
+}
+
+.button2 {
+    grid-area: 'button2';
+    width: 120px;
+    height: 60px;
+    background: rgb(12, 110, 110);
+    color: paleturquoise;
+    letter-spacing: normal;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 1.2em;
+
+}
+
+
 
 
 
