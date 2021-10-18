@@ -106,9 +106,23 @@ h2 {
     100% {transform: scale(1);}
 }
 
-
+/* Cloud and animation */
 .cloud01 {
     grid-area: 'cloud';
+}
+
+.cloud01:hover{
+    animation-name: backForth;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+/* keyframe for cloud */
+@keyframes backForth {
+    0% {transform: translateX(50px);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(100px);}
 }
 
 
