@@ -1,3 +1,11 @@
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    text-shadow: 2px 2px 0px rgb(39, 131, 80);
+}
+
 /* Create responsive grid for large and small screens */
 
 /* large screens rules Media Query , (min-width: 700px)*/
