@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400px" height="600px" viewBox="0 0 1440 1600">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_1);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+
+      .cls-4 {
+        fill: #72644a;
+        stroke-width: 3.75px;
+      }
+
+      .cls-5 {
+        stroke-width: 2.25px;
+      }
+
+      .cls-6 {
+        fill: #e7eaa7;
+        stroke-width: 5.75px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #729edd;
+        stroke: #145cb2;
+      }
+
+      .cls-7 {
+        stroke-width: 5.5px;
+      }
+
+      .cls-8 {
+        stroke-width: 5.36px;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="1440" height="1600"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" class="cls-1">
+    <rect class="cls-9" width="1440" height="1600"/>
+    <g id="Hotair_balloon" transform="translate(28 4)">
+      <g id="Group_2" data-name="Group 2" transform="translate(377.223 593.955)">
+        <g id="Group_1" data-name="Group 1" transform="translate(159.15 492.232)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="9.558" cy="9.558" r="9.558" transform="translate(16.345 3)"/>
+          <path id="Path_1" data-name="Path 1" class="cls-3" d="M79.193,138.058V90.267s-8.889-4.779-25.9,23.9" transform="translate(-53.29 -61.593)"/>
+          <path id="Path_2" data-name="Path 2" class="cls-3" d="M88.456,88.26A32.626,32.626,0,0,1,55.83,106.99" transform="translate(-27.552 -77.204)"/>
+        </g>
+        <path id="Path_4" data-name="Path 4" class="cls-4" d="M54.4,92.5h76.465s19.116,62.128-38.233,62.128S54.4,92.5,54.4,92.5Z" transform="translate(88.171 448.302)"/>
+        <line id="Line_2" data-name="Line 2" class="cls-5" y2="76.465" transform="translate(215.727 464.336)"/>
+        <line id="Line_1" data-name="Line 1" class="cls-5" y2="76.465" transform="translate(144.819 464.336)"/>
+        <path id="Path_3" data-name="Path 3" class="cls-6" d="M345.948,361.995a186.384,186.384,0,1,0-251.38-5.066h0c60.216,59.739,86.024,145.38,86.024,145.38l39.74-.367,32.807-.3s30.873-84.112,95.008-139.932Z" transform="translate(-36.639 -35.501)"/>
+      </g>
+    </g>
+    <path id="Cloud1" class="cls-7" d="M89,193.826H477.826s3.059-62.128-35.174-62.128a45.115,45.115,0,0,0-46.166,31.064S385.3,64.791,327.954,64.791s-61.65,64.518-61.65,64.518S251.489,17,175.024,17,89,193.826,89,193.826Z" transform="translate(806.695 391.115)"/>
+    <path id="Cloud2" class="cls-8" d="M367.559,169.535H83.776s-2.2-45.306,25.712-45.306a32.784,32.784,0,0,1,34.123,22.653s8.22-71.5,49.989-71.5,45.019,47.026,45.019,47.026S249.42,40.5,305.526,40.5,367.559,169.535,367.559,169.535Z" transform="translate(761.642 592.232)"/>
+  </g>
+</svg>
