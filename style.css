@@ -154,6 +154,49 @@ h2 {
     100% {transform: translateX(500%);}
 }
 
+/* Assignment 2C SVG animation for triangle */
+
+#Triangle_fill {
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes slide {
+    0% {transform: scale(.5);
+        opacity: 0;}
+    50% {transform: scale (1.1);}
+    100% {transform: scale(1);
+          opacity: 1;}
+
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(0.1);
+    }
+    /* 80% { */
+        /* transform: scale(1.25); */
+    /* } */
+    100% {
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}
+
 /* Phrase type with blinking cursor - has some glitches,
 not sure why it didn't work */
 

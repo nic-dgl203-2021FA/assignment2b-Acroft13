@@ -26,11 +26,51 @@ Advanced CSS - Assignment2b -->
         </div> -->
 
         <!-- Assignment 2c: Create new div element for SVG  -->
-    <div class="balloon_animation">
-        <img src="img/Hotair_balloon.svg" class="hotair_balloon"/>
+        <div class="triangle">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="300px" viewBox="0 0 1440 1600">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      clip-path: url(#clip-Custom_Size_1);
+                    }
+              
+                    .cls-2 {
+                      fill: none;
+                    }
+              
+                    .cls-3 {
+                      fill: #d61ee2;
+                    }
+              
+                    .cls-4, .cls-5 {
+                      stroke: none;
+                    }
+              
+                    .cls-5 {
+                      fill: #490667;
+                    }
+              
+                    .cls-6 {
+                      fill: #fff;
+                    }
+                  </style>
+                  <clipPath id="clip-Custom_Size_1">
+                    <rect width="1440" height="1600"/>
+                  </clipPath>
+                </defs>
+                <g id="Custom_Size_1" data-name="Custom Size – 1" class="cls-1">
+                  <rect class="cls-6" width="1440" height="1600"/>
+                  <g id="Triangle_border" data-name="Triangle border" class="cls-2" transform="translate(121 167)">
+                    <path class="cls-4" d="M539.5,0,1079,978H0Z"/>
+                    <path class="cls-5" d="M 539.5 31.0546875 L 25.4053955078125 963 L 1053.594604492188 963 L 539.5 31.0546875 M 539.5 0 L 1079 978 L 0 978 L 539.5 0 Z"/>
+                  </g>
+                  <path id="Triangle_fill" data-name="Triangle fill" class="cls-3" d="M512.5,0,1025,929H0Z" transform="translate(148 200)"/>
+                </g>
+              </svg>
+            
+        </div>
+    
     </div>
-
-</div>
 </body>
 
 </html>
