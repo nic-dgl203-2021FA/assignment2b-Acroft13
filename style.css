@@ -197,6 +197,22 @@ h2 {
     }    
 }
 
+/* Text that is animated and uses variables and / or variable fonts  */
+
+/* Create :root for paragraph variables */
+:root {
+    --dist: 0%;
+    --scale: 2;
+    --deg: 10deg;
+}
+
+/* Apply grid-area and animation to p element */
+p {
+    grid-area: 'paragraph';
+    animation: moveIn 2s linear both;
+    margin: 0.75rem 0;
+}
+
 
 
 /* Phrase type with blinking cursor - has some glitches,
