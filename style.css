@@ -157,6 +157,7 @@ h2 {
 /* Assignment 2C SVG animation for triangle */
 
 #Triangle_fill {
+    grid-area: 'triangle';
     transform-origin: 50% 50%;
     transform-box: fill-box;
     animation-name: slide;
