@@ -213,6 +213,16 @@ p {
     margin: 0.75rem 0;
 }
 
+/* Create @keyframes for paragraph variables */
+
+@keyframes moveIn {
+    0% {
+        transform: translateX(-325%) scale(1) rotate(0deg);
+    }
+    100% {
+        transform: translateX(var(--dist)) scale(var(--scale)) rotate(var(--deg));
+    }
+
 
 
 /* Phrase type with blinking cursor - has some glitches,
