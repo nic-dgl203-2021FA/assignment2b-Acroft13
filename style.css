@@ -175,6 +175,11 @@ h2 {
 
 }
 
+/* Apply h3 to an offset path  */
+.container h3 {
+    offset-path: ('M27.9,480.95s7.086-100.973,92.116-106.287,46.058,221.432,113.373,223.2,12.4-320.634,92.116-322.405,1.771,194.86,69.087,193.089,7.086-100.973,83.258-93.887S467.222,541.18,546.937,542.951');
+}
+
 
 /* Phrase type with blinking cursor - has some glitches,
 not sure why it didn't work */
