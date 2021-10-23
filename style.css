@@ -21,7 +21,8 @@ h1 {
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
         "button1 button2 scaleOut"
-        "cloud dinosaur";
+        "cloud dinosaur"
+        "triangle paragraph";
     }
 }
 
@@ -35,12 +36,14 @@ h1 {
         padding-left: 30px;
         padding-right: 30px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "button1"
         "button 2"
         "cloud"
-        "dinosaur";
+        "dinosaur"
+        "triangle"
+        "paragraph";
     }
 }
 
