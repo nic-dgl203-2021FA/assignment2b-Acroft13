@@ -1,3 +1,98 @@
+/************* new nav bar for assignment 2C *******************/
+.hamburgermenu, .closeicon {
+    height: 20px;
+    width: auto;
+}
+
+
+nav {
+    /* border: 1px solid #333; */
+    background-color: #73a0a3;
+
+    /* Add additional styles for dropdown  */
+    padding: 1rem;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    /* animate slide up and down */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+nav:target {
+    transform: translateY(0);
+}
+nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; 
+        font-size: 1rem;
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: center;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    /* link navigation states  */
+    nav a:focus {
+        background-color: #629da1;
+        color: black;
+    }
+    
+    /* hover comes later in style sheet so overrides focus */
+    nav a:hover {
+        color: rgb(240, 186, 186);
+        /* don't change boldness on hover, make same */
+        font-weight: 600;
+    }
+    
+    .active {
+        color: #629da1;
+        background-color: #c5e5ed;
+    }
+    /* Adjust logo size */
+    .logo img{
+        height: 70px;
+        width: auto;
+    }
+    
+    @media (min-width:750px) {
+        header {
+                margin: 1rem auto;
+        }
+        nav {
+            padding: 0;
+            position: static;
+            height: auto;
+            transform: translateY(0);
+        }
+        .hamburger, .close {
+            display: none;
+        }
+        nav ul {
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    }
+
+
 h1 {
     text-align: center;
     padding-bottom: 25px;
